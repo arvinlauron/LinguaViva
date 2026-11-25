@@ -1,0 +1,7 @@
+cat << 'EOF' >> .gitignore
+.venv/
+nllb-base-model/
+nllb_final_best_model/
+*.safetensors
+*.bin
+EOF
